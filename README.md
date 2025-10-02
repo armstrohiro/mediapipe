@@ -59,7 +59,7 @@ accuracy：0.69
 
 `TIME_STEPS=100`, `epochs=5`, `dropout=0.5` という設定で学習させた際の訓練・検証曲線を以下に示します。
 
-![LSTM Training History](images/learning_curve_dropout0.5.png)
+<img width="1817" height="733" alt="image" src="https://github.com/user-attachments/assets/aaaf7764-b403-4fb0-89ee-2361eab0a2e2" />
 
 **【考察】**
 上のグラフから、訓練データ（青線）と検証データ（赤線）の正解率・損失が、**ほぼ連動して推移している**ことが分かります。これは、訓練データへの過剰な適合（過学習）が非常にうまく抑制され、モデルが高い汎化性能を獲得している証拠です。
